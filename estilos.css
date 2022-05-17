@@ -1,0 +1,125 @@
+* {
+list-style:none
+}
+body{
+  margin: 0;
+  padding: 0;
+  font-size: 13px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+header{
+  width: 100%;
+  height: 60px;
+
+}
+
+header nav {
+  display: flex;
+  justify-content: flex-end;
+}
+
+header nav .nav-right-section {
+  width: 250px;
+  height: auto;
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  align-items: center;
+}
+
+nav .nav-right-section a {
+  margin-right: 10px;
+  color: black;
+}
+
+nav .nav-right-section .menu-icon {
+  background-image: url('http://www.myiconfinder.com/uploads/iconsets/256-256-ed559f9ab4ee6cec08ffde71c58a68af-grid.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  width: 25px;
+  height: 25px;
+}
+
+nav .nav-right-section img {
+  border-radius: 50%;
+  margin-left: 10px;
+  width: 30px;
+}
+main{
+    margin-top: 150px;
+    text-align: center;
+}
+main .main-logo {
+    width: 530px;
+    margin: 0 auto;
+}
+main .main-logo img {
+    width: 300px;
+}
+main .main-input {
+    width:  530px;
+    margin: 0 auto;
+    margin-bottom: 35px;
+}
+
+main .main-input-container {
+    width: 525px ;
+    border-radius: 100px;
+    border: 1px solid lightgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main .main-input input{
+    width: 450px;
+    height: 40px;
+    border: none;
+    outline: none;
+}
+main .Botones{
+  font-family: arial,sans-serif;
+  text-align: center;
+  cursor: pointer;
+  user-select: none;
+}
+footer {
+    width: 100%;
+    height: 50px;
+    position: absolute;
+    bottom: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    font-size: 13px;
+    background-color: #f2f2f2;
+    border-top: 1px solid #e4e4e4;
+  }
+  
+  footer ul {
+    margin: 10px;
+    list-style: none;
+    display: flex;
+    padding-left: 0;
+  }
+  
+  footer .footer-left {
+    float: left;
+  }
+  
+  footer .footer-right {
+  float: right; 
+ }
+  
+  footer ul li a {
+    margin: 10px;
+    color: #5f6368;
+  }
+  
